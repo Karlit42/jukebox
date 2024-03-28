@@ -21,7 +21,7 @@ function Player({ selectedAlbum }) {
 
             {selectedTrack &&
                 <figure className='control'>
-                    <figcaption>{currentTrackTitle}</figcaption>
+                    <figcaption></figcaption>
                     <audio autoPlay controls src={selectedTrack}></audio>
                 </figure>
             }
