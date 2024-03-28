@@ -1,0 +1,16 @@
+* {
+    background-color: rgb(29, 35, 39);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.jukebox {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}

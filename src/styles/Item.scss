@@ -1,0 +1,46 @@
+.Item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid rgb(75, 75, 75);
+    border-radius: 15px;
+    margin: 0.5rem;
+    width: 50%;
+
+    @media screen and (max-width: 767px) {
+        display: inline-block;
+        width: 90%;
+    }
+
+    img {
+        border-radius: 100%;
+        opacity: 0.9;
+        width: 10rem;
+
+        @media screen and (max-width: 767px) {
+            width: 5rem;
+        }
+    }
+}
+
+p {
+    font-style: oblique;
+
+    @media screen and (max-width: 767px) {
+        text-align: right;
+    }
+}
+
+h2 {
+    text-align: center;
+
+    @media screen and (max-width: 767px) {
+        text-align: left;
+    }
+}
+
+
+audio {
+    border-radius: 7px;
+}
