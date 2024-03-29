@@ -7,6 +7,10 @@
     border-radius: 15px;
     width: 50%;
     margin: 0.5rem;
+
+    @media screen and (max-width: 767px) {
+        width: 90%;
+    }
 }
 
 audio {
@@ -35,8 +39,10 @@ figcaption {
     padding: 0.6rem;
     border-radius: 20px;
     text-align: center;
-    background-color: white;
-    color: rgb(29, 35, 39);
+    font-weight: 700;
+    // background-color: white;
+    // color: rgb(29, 35, 39);
+    width: 90%;
 
     &:hover {
         color: white;

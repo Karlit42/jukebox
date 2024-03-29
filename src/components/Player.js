@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../styles/Player.scss';
 
+
 function Player({ selectedAlbum }) {
     const [selectedTrack, setSelectedTrack] = useState(null);
     const [currentTrackTitle, setCurrentTrackTitle] = useState('');
@@ -8,13 +9,18 @@ function Player({ selectedAlbum }) {
     function selectTrack(track, title) {
         setSelectedTrack(track.file);
         setCurrentTrackTitle(title);
-    }
+    };
+
+    const styleP = {
+        backgroundColor: selectedAlbum.backgroundkolor,
+        color: selectedAlbum.kolor
+    };
 
     return (
         <div className='player'>
 
             {selectedAlbum.songs.map((track, index) => (
-                <p className='song' key={track.id} onClick={() => selectTrack(track, track.name)}>
+                <p className='song' style={styleP} key={track.id} onClick={() => selectTrack(track, track.name)}>
                     {index + 1}. {track.name} ({track.duration})
                 </p>
             ))}
