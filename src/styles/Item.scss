@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // border: 1px solid rgb(75, 75, 75);
     border-radius: 15px;
     margin: 0.5rem;
     width: 50%;
@@ -25,7 +24,7 @@
 }
 
 p {
-    font-style: oblique;
+    font-weight: 600;
 
     @media screen and (max-width: 767px) {
         text-align: right;

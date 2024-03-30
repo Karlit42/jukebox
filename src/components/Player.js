@@ -1,19 +1,16 @@
 import { useState } from 'react';
 import '../styles/Player.scss';
 
-
 function Player({ selectedAlbum }) {
     const [selectedTrack, setSelectedTrack] = useState(null);
-    const [currentTrackTitle, setCurrentTrackTitle] = useState('');
 
     function selectTrack(track, title) {
         setSelectedTrack(track.file);
-        setCurrentTrackTitle(title);
     };
 
     const styleP = {
         backgroundColor: selectedAlbum.backgroundkolor,
-        color: selectedAlbum.kolor
+        color: selectedAlbum.kolor,
     };
 
     return (

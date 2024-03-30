@@ -21,7 +21,7 @@ export const albums = [
 			tracks.onestpasmarrant
 		],
 		kolor: 'rgb(5, 5, 5)',
-		backgroundkolor: 'rgb(104, 111, 15)'
+		backgroundkolor: 'rgb(147, 122, 74)'
 	},
 	{
 		id: 2,
@@ -41,7 +41,7 @@ export const albums = [
 	{
 		id: 3,
 		name: 'Nardinoumouk',
-		band: 'Eddy Woogy (& son Karlit)',
+		band: 'Eddy Woogy & son Karlit',
 		year: '2022',
 		cover: nardinoumouk,
 		songs: [
@@ -56,7 +56,7 @@ export const albums = [
 	{
 		id: 4,
 		name: 'Collaborations hasardeuses, enregistrements par surprise et autres curiosités',
-		band: 'Karlit',
+		band: 'Karlit & son diktaphone',
 		year: '2018',
 		cover: collaborations,
 		songs: [

@@ -40,13 +40,14 @@ figcaption {
     border-radius: 20px;
     text-align: center;
     font-weight: 700;
+    opacity: 0.8;
+    width: 70%;
     // background-color: white;
     // color: rgb(29, 35, 39);
-    width: 90%;
 
     &:hover {
-        color: white;
-        background-color: rgb(83, 83, 83);
+        opacity: 1;
+        background-color: rgb(46, 46, 46);
         transition: 0.2s;
     }
 }
