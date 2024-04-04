@@ -47,7 +47,7 @@ export const albums = [
 		songs: [
 			tracks.nardinoumouk,
 			tracks.lamemebassine,
-			tracks.immunisonsnous,
+			tracks.souvienstoi,
 			tracks.jetaimenti
 		],
 		kolor: 'rgb(5, 5, 5)',

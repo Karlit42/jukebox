@@ -10,6 +10,7 @@ import nanananardinoumouk from '../sons/Nardinoumouk.mp3';
 import lamemebassine from '../sons/Lamêmebassine.mp3';
 import immunisonsnous from '../sons/Immunisonsnous.mp3';
 import jetaimenti from '../sons/Jetaimenti.mp3';
+import souvienstoi from '../sons/Souvienstoi.mp3';
 import jmesuisfetoopti from '../sons/Jmesuifètoopti.mp3';
 import kedlagueule from '../sons/Kedlagueule.mp3';
 import henrydes from '../sons/Henrydess.mp3';
@@ -81,16 +82,16 @@ export const tracks = {
         duration: '2:23',
         file: lamemebassine
     },
-    immunisonsnous: {
+    souvienstoi: {
         id: 11,
-        name: 'Immunisons-nous',
-        duration: '2:19',
-        file: immunisonsnous
+        name: 'Souviens-toi la vie',
+        duration: '2:55',
+        file: souvienstoi
     },
     jetaimenti: {
         id: 12,
         name: 'Je t\'ai menti',
-        duration: '2:15',
+        duration: '3:25',
         file: jetaimenti,
     },
     slaves: {

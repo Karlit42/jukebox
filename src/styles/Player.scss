@@ -14,14 +14,25 @@
 }
 
 audio {
-    // width: 100%;
-    // border-radius: 30px;
-
-    // @media screen and (max-width: 767px) {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+
+    /* Style de la barre de progression */
+    &::-webkit-media-controls-timeline {
+        background: #7e9253;
+        /* Couleur de fond */
+    }
+
+    /* Style du curseur de la barre de progression */
+    &::-webkit-media-controls-current-time-display {
+        color: #dc9bfa;
+        /* Couleur du texte */
+        font-size: 14px;
+        /* Taille de police */
+    }
+
 }
 
 
