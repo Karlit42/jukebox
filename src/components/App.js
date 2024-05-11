@@ -17,9 +17,6 @@ function App() {
   };
 
   return (
-
-    // <RouterProvider router={router} /> 
-
     <div>
       <Gallery handleAlbumClick={handleAlbumClick} />
 
@@ -32,7 +29,6 @@ function App() {
           <Home />
         }
       </div>
-
     </div>
   );
 }

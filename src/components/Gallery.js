@@ -7,8 +7,8 @@ const Gallery = ({ handleAlbumClick }) => {
     <div className="card-container">
       {albums.map((album) => (
         <img
-          key={album.id}
           className='card'
+          key={album.id}
           src={album.cover}
           alt={album.name}
           onClick={() => handleAlbumClick(album)}

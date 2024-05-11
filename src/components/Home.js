@@ -1,6 +1,11 @@
+import '../styles/Home.scss';
+
+
 function Home() {
     return (
-        <div className="home"></div>
+        <h1 className="home">
+            Faites votre choix !!
+        </h1>
     )
 }
 
